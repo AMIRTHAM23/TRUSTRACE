@@ -2,7 +2,6 @@ import { useState } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 function Registration() {
   const [form, setForm] = useState({ name: '', email: '', password: '' });
